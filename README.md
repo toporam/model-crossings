@@ -1,7 +1,5 @@
 # model-crossings
-Code to run simulations and replicate figures reported in Revsine, Gonzalez-Castillo, Merriam, Bandettini, and Ramirez (2023)
-
-You can find our preprint here: https://www.biorxiv.org/content/10.1101/2023.02.08.527219v1.full
+Code to run simulations and replicate figures reported in Revsine, Gonzalez-Castillo, Merriam, Bandettini, and Ramirez (2023) A unifying model for discordant and concordant results in human neuroimaging studies of facial viewpoint selectivity. You can find our preprint here: https://www.biorxiv.org/content/10.1101/2023.02.08.527219v1.full
 
 GETTING STARTED: Detailed instructions to run simulatons are included in the m-file named mainMakeFigs.m. We suggest you get started by opening this m-file and readng the included instructions, the summary and warning below, and finally referring to our paper for further details.
 
@@ -19,5 +17,7 @@ Before running mainMakeFigs.m you need to request permission to the copyright ho
 
 # Note 
 One of the model variants supported relies on the output of the S1-level representation of the HMAX model as described in Serre et al (2004) and implemented in Matlab by Stanley Bileschi based on the C1 code by Max Riesenhuber and Thomas Serre.
+
+Serre T, Wolf L, Poggio T (2005) Object recognition with features inspired by visual cortex. In: 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR’05), pp 994–1000 vol. 2. https://ieeexplore.ieee.org/document/1467551
 
 
