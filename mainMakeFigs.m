@@ -240,21 +240,21 @@ callCrossingsModel(MODEL4, BasisPath)
 MODEL1.doFig9 = 1; % [0/1] plot RSA results for all density levels. By default, will save Figure 8. 
 MODEL1.doFig8 = 0; MODEL1.doFig7 = 0; MODEL1.doFig6 = 0; MODEL1.doFig5 = 0; MODEL1.doFig4 = 0; 
 callCrossingsModel(MODEL1, BasisPath) 
-auxTime = clock; display(['Time: ' num2str(auxTime(4)), ':', num2str(auxTime(5)) ' hrs']),% beep
+auxTime = clock; disp(['Time: ' num2str(auxTime(4)), ':', num2str(auxTime(5)) ' hrs']), %#ok<*CLOCK> % beep
 
 MODEL2.doFig9 = 1;
 MODEL2.doFig8 = 0; MODEL2.doFig7 = 0; MODEL2.doFig6 = 0; MODEL2.doFig5 = 0; MODEL2.doFig4 = 0; 
 callCrossingsModel(MODEL2, BasisPath) 
-auxTime = clock; display(['Time: ' num2str(auxTime(4)), ':', num2str(auxTime(5)) ' hrs']),% beep
+auxTime = clock; disp(['Time: ' num2str(auxTime(4)), ':', num2str(auxTime(5)) ' hrs']),% beep
 
 MODEL3.doFig9 = 1; 
 MODEL3.doFig8 = 0; MODEL3.doFig7 = 0; MODEL3.doFig6 = 0; MODEL3.doFig5 = 0; MODEL3.doFig4 = 0; 
 callCrossingsModel(MODEL3, BasisPath) 
-auxTime = clock; display(['Time: ' num2str(auxTime(4)), ':', num2str(auxTime(5)) ' hrs']), % beep
+auxTime = clock; disp(['Time: ' num2str(auxTime(4)), ':', num2str(auxTime(5)) ' hrs']), % beep
 
 MODEL4.doFig9 = 1; 
 MODEL4.doFig8 = 0; MODEL4.doFig7 = 0; MODEL4.doFig6 = 0; MODEL4.doFig5 = 0; MODEL4.doFig4 = 0; 
 callCrossingsModel(MODEL4, BasisPath) 
-auxTime = clock; display(['Time: ' num2str(auxTime(4)), ':', num2str(auxTime(5)) ' hrs']), % beep
+auxTime = clock; disp(['Time: ' num2str(auxTime(4)), ':', num2str(auxTime(5)) ' hrs']), % beep
 
 %% 
